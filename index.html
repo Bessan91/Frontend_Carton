@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h3 class="mainClass">المسبحة الالكترونية</h3>
+            <div class="parent">
+            <div class="child sobhan " >
+               <p class="one">سبحان الله </p>
+               <button  class="btnadd1" onclick="increFirst()"> <i class="fa-solid fa-heart" style="color: #dfcc86;"></i></button>
+               <button  class ="btnremove1" onclick="decFirst()"><i class="fa-solid fa-heart-circle-minus" style="color: #dfcc86;"></i></button>
+
+               <input  class="fillTxt" id="counter" type="text" value="0" readonly/>
+               <button  class="Restart "onclick="StartAgain() "><i class="fa-solid fa-power-off" style="color: #dfcc86;"></i> </button>
+            </div>
+            <div class="child Alhamd">
+               <p class="one"> الحمدلله </p>
+               <button class="btnadd2" onclick="incresec()"><i class="fa-solid fa-heart" style="color: #dfcc86;"></i></button>
+               <button class ="btnremove2" onclick="decsec()"> <i class="fa-solid fa-heart-circle-minus" style="color: #dfcc86;"></i></button>
+
+               <input class="fillTxt" id="counter2" type="text" value="0" readonly/>
+               <button  class="Restart " id="Restart "onclick="StartAgain2() "><i class="fa-solid fa-power-off" style="color: #dfcc86;"></i></button>
+            </div>
+        </div>
+        <div class="parent">
+            <div class="child therdOne">
+                <p class="one"> لا اله الا الله </p>
+                <button class="btnadd3" onclick="increThierd()"><i class="fa-solid fa-heart" style="color: #dfcc86;"></i></button>
+                <button class ="btnremove3" onclick="decThierd()"> <i class="fa-solid fa-heart-circle-minus" style="color: #dfcc86;"></i></button>
+ 
+                <input  class="fillTxt" id="counter3" type="text" value="0" readonly/>
+                <button   class="Restart "id="Restart "onclick="StartAgain3() "><i class="fa-solid fa-power-off" style="color: #dfcc86;"></i> </button>
+             </div>
+
+             <div class="child forthOne ">
+                <p class="one"> الله اكبر  </p>
+                <button class="btnadd4" onclick="increFourt()"><i class="fa-solid fa-heart" style="color: #dfcc86;"></i></button>
+                <button class ="btnremove4" onclick="decFourt()"> <i class="fa-solid fa-heart-circle-minus" style="color: #dfcc86;"></i></button>
+ 
+                <input  class="fillTxt" id="counter4" type="text" value="0" readonly/>
+                <button class="Restart"  id="Restart "onclick="StartAgain4() "><i class="fa-solid fa-power-off" style="color: #dfcc86;"></i></button>
+             </div>
+            </div>
+           
+    </div>
+    <script  src="./main.js">
+
+    </script>
+</body>
+</html>
